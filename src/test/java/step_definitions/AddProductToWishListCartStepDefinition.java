@@ -8,8 +8,8 @@ import org.testng.Assert;
 
 public class AddProductToWishListCartStepDefinition {
     WishListCartPage wishListCartPage=Hooks.homepage.WishListCartPage1();
-    @Given("user must be login")
-    public void user_must_be_login() {
+    @Given("user have to login")
+    public void user_have_to_login() {
 
     }
     @When("user add First products to Wishlist cart")

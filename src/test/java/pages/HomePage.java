@@ -52,28 +52,9 @@ public class HomePage {
     public CheckOutPage CheckOutPage1(){
         return new CheckOutPage(driver);
     }
-     /*
-    public LoginPageBeforeSearch LoginPageBeforeSearch1(){
-        return new LoginPageBeforeSearch(driver);
-    }
-    public CurrencePage currencePage1(){
-       // ClickLink("Log in");
-        return new CurrencePage(driver);
-    }
-
-
-
-
-    public FliterColorPage FliterColorPage1(){
-        return new FliterColorPage(driver);
-    }
-    public ProducTag ProducTag1(){
-        return new ProducTag(driver);
-    }
-
     public void scrollTo(String scroll) {
         jse = (JavascriptExecutor) driver;
         jse.executeScript("scrollBy(0," + scroll + ")");
     }
-*/
+
 }

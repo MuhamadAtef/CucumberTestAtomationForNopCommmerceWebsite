@@ -22,7 +22,7 @@ public class CategoriesStepDefinitions {
     @Then("Click on sub categories successfully")
     public void click_on_sub_categories_successfully() {
 
-        System.out.println("successfylly cat");
+        System.out.println("successfully cat");
 
     }
 

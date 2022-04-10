@@ -1,6 +1,7 @@
 package step_definitions;
 
 import pages.ResetPasswordPage;
+import pages.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,7 +11,8 @@ import org.testng.Assert;
 public class ResetPasswordStepDefinitions {
 
     ResetPasswordPage resetPasswordPage;
-    //LoginPage loginPage=Hooks.homepage.loginPage1();
+//    LoginPage loginPage = Hooks.homepage.loginPageNavigate();
+
    @Given("user go to Reset page")
     public void user_go_to_reset_page() {
      //  loginPage.logOutUser();
