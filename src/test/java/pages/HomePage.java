@@ -17,6 +17,7 @@ public class HomePage {
         driver.findElement(By.linkText(LinkText)).click();
     }
 
+
     public RegistrationPage RegisterPageNavigate(){
         ClickLink("Register");
         return new RegistrationPage(driver);

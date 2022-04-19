@@ -6,7 +6,8 @@ import org.openqa.selenium.WebDriver;
 public class CompareListCartPage extends CategoriesPage {
     WebDriver driver;
 
-    private By FirstProduct = By.xpath("//div[@data-productid='38']");
+    //private By FirstProduct = By.xpath("//div[@data-productid='38']");
+    private By FirstProduct = By.xpath("//div[@class=\"item-grid\"]/div[2]/div/div[2]/h2/a");
     private By addFirstToCart =By.xpath("//*[@id=\"product-details-form\"]/div[2]/div[1]/div[2]/div[9]/div[2]/button");
     private By SecondProduct = By.xpath("//div[@data-productid='20']");
     private By addSecondToCart =By.xpath("//button[@onclick='return AjaxCart.addproducttocomparelist(\"/compareproducts/add/20\"),!1']");

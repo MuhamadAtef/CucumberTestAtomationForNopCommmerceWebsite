@@ -12,7 +12,8 @@ public class CheckOutPage {
 
     private WebDriver driver;
     Actions actions;
-    private By CartHeader =By.id("topcartlink");
+    //private By CartHeader =By.id("topcartlink");
+    private By CartHeader =By.xpath("//div[@class=\"footer-upper\"]/div[3]/ul/li[4]/a");
     private By GoToCart =By.xpath("//*[@id=\"flyout-cart\"]/div/div[4]/button");
     private By agreeTerms =By.id("termsofservice");
     private By checkout =By.id("checkout");

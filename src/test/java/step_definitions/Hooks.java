@@ -28,6 +28,6 @@ public class Hooks {
     @AfterAll
     public static void quitdriver() throws InterruptedException {
 
-      driver.quit();
+     driver.quit();
     }
 }
